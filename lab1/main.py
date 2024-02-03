@@ -33,14 +33,14 @@ if __name__ == "__main__":
     l_vec_swap = l_vec.copy()
     l_vec_swap[ind - 1] = -1
 
-    l_hz = (-1 / l_ind) * l_vec_swap
+    l_hat = (-1 / l_ind) * l_vec_swap
 
     Q = np.eye(n)
-    Q[:, ind - 1] = l_hz
+    Q[:, ind - 1] = l_hat
 
     A_swap_inv = Q @ A_inv
 
-    print(f"A_swap_inv: \n {A_swap_inv} \n")
+    print(f"A_swap_inv: \n {A_swap_inv} \n")в
 
 
 
