@@ -40,10 +40,4 @@ if __name__ == "__main__":
 
     A_swap_inv = Q @ A_inv
 
-    print(f"A_swap_inv: \n {A_swap_inv} \n")в
-
-
-
-
-
-
+    print(f"A_swap_inv: \n {A_swap_inv} \n")
